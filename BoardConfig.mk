@@ -50,6 +50,10 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 # Power
 TARGET_HAS_NO_WLAN_STATS := true
 
+# Properties
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # inherit from the proprietary version
