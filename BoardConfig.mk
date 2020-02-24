@@ -49,5 +49,7 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 603979776
 # Power
 TARGET_HAS_NO_WLAN_STATS := true
 
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # inherit from the proprietary version
 include vendor/motorola/payton/BoardConfigVendor.mk
