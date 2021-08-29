@@ -75,6 +75,10 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \
     android.hardware.keymaster@3.0-service
 
+# MotoActions
+PRODUCT_PACKAGES += \
+    MotoActions
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service \
