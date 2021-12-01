@@ -57,7 +57,8 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.payton.rc
+    init.payton.rc \
+    fstab.qcom
 
 # Keylayout
 PRODUCT_COPY_FILES += \
